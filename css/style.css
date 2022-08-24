@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+
+}
+
+nav{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    column-gap: 20px;
+    padding:12px 15px;
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+}
+nav .logo img{
+
+    width: 90px;
+    height: 40px;
+
+}
+
+.categoria ul{
+    list-style: none;
+}
+.categoria ul li{
+    display: flex;
+    align-items: center;
+    padding-top:15px;
+}
+.categoria ul a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.busqueda{
+    display: flex;
+    flex-direction: start;
+    width: 500px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.busqueda span{
+    padding-top:15px;
+    padding-left:20px;
+}
+
+.items ul{
+    display: flex;
+    column-gap: 20px;
+    padding-top:15px;
+    list-style: none;
+}
+
+.items ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.items a:hover,
+.categoria a:hover{
+    color: rgb(100, 22, 190);
+}
+
+.icons{
+    padding-top: 15px;
+}
+
+.icons span {
+    margin-left: 20px;
+}
+
+.categori-special{
+    width: 100%;
+    padding: 15px 40px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+}
+.categori-special::before{
+    content: "";
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 40px;
+    box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.459);
+
+}
+.categori-special ul{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.categori-special ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.categori-special ul li a:hover{
+    color: rgb(100, 22, 190);
+}
+
+.banner img{
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.Ofertas{
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    width: 450px;
+    height: 190px;
+    padding: 20px ;
+    background-color: white;
+    color: black;
+}
+
+.title-1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.text-1{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
